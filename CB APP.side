@@ -1,0 +1,1245 @@
+{
+  "id": "e4532204-9e00-4394-bebe-72bef627a12a",
+  "version": "2.0",
+  "name": "CB APP",
+  "url": "https://app.cocobambu.com/entrar",
+  "tests": [{
+    "id": "1fbbe83c-9df9-4a49-ba0d-082d15ecda88",
+    "name": "LoginSenhaInvalido",
+    "commands": [{
+      "id": "55821011-ed73-420e-a202-c354a32fba38",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51cc78a3-ca9e-4503-90bc-f9d1bb30fc86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29c77f7f-ae8f-4066-894a-543395cece71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69445c38-ab00-412d-9173-8d3bf307738b",
+      "comment": "",
+      "command": "type",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "thiagotfs.bsb@gmail.com"
+    }, {
+      "id": "c03555ff-75b2-4d53-a0c9-084b9ccc6d6e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched > .native-input",
+      "targets": [
+        ["css=.ng-untouched > .native-input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formUserPass']/div[3]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "4e4d9337-ecb9-4874-bd3b-f357cf4d7285",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttons-container > .ng-tns-c115-0:nth-child(1)",
+      "targets": [
+        ["css=.buttons-container > .ng-tns-c115-0:nth-child(1)", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e5df193a-7786-4573-9a31-a9ed4bfd60a9",
+    "name": "ResetarSenhaCancela",
+    "commands": [{
+      "id": "4ecb4955-594d-4f6e-b5df-05be2e429825",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ebce19d-917e-45ce-b3e8-29147fce905c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b054cc95-72c9-47d1-a310-eedb4e8a557a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .link",
+      "targets": [
+        ["css=.text-right > .link", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//ion-col[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Resetar senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4055d911-d969-4a62-85d7-0358b63a027c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-button-role-Cancelar > .alert-button-inner",
+      "targets": [
+        ["css=.alert-button-role-Cancelar > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1f488723-a36d-4046-b489-90a274583279",
+    "name": "RedefinirSenhaEmailValido",
+    "commands": [{
+      "id": "cbb7d33c-c3e2-4282-8dec-4149922e64fc",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "039c4acb-5146-4ab3-8663-a0025003601f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b2d9d99-a164-4921-8ee9-82a006341420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .link",
+      "targets": [
+        ["css=.text-right > .link", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//ion-col[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Resetar senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c6d927d-ea1c-4143-8ea4-d2ac3aa52e9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-input-1-0",
+      "targets": [
+        ["id=alert-input-1-0", "id"],
+        ["css=#alert-input-1-0", "css:finder"],
+        ["xpath=//input[@id='alert-input-1-0']", "xpath:attributes"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c09cacb-62bd-4a02-9143-36413ef12dbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=alert-input-1-0",
+      "targets": [
+        ["id=alert-input-1-0", "id"],
+        ["css=#alert-input-1-0", "css:finder"],
+        ["xpath=//input[@id='alert-input-1-0']", "xpath:attributes"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "thiagotfs.bsb@gmail.com"
+    }, {
+      "id": "750f555b-3c74-47b7-91ba-d4612ee9cd30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .alert-button-inner",
+      "targets": [
+        ["css=.ion-activated > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c20118a-0eb4-44ee-8395-4ee3efa74045",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-button-inner",
+      "targets": [
+        ["css=.alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-2']/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "91d2ed20-8a2a-4eb5-94d3-14a74300d683",
+    "name": "ResetarSenhaEmailInvalido",
+    "commands": [{
+      "id": "130e9d5c-d8e8-4ffc-b4bf-9cce280aa3c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be28d5c5-c74b-4292-940e-56315cfe24b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07c1f39e-5661-452e-9645-d7b118fc9a7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .link",
+      "targets": [
+        ["css=.text-right > .link", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//ion-col[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Resetar senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fdd9ef6-f4ce-4825-adff-abe9bc1f2b3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-input-1-0",
+      "targets": [
+        ["id=alert-input-1-0", "id"],
+        ["css=#alert-input-1-0", "css:finder"],
+        ["xpath=//input[@id='alert-input-1-0']", "xpath:attributes"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00bf3177-a3a9-4898-89e7-4ea1b9038367",
+      "comment": "",
+      "command": "type",
+      "target": "id=alert-input-1-0",
+      "targets": [
+        ["id=alert-input-1-0", "id"],
+        ["css=#alert-input-1-0", "css:finder"],
+        ["xpath=//input[@id='alert-input-1-0']", "xpath:attributes"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Thiago"
+    }, {
+      "id": "ca86488e-1797-4866-bcec-5988fa1b4c80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .alert-button-inner",
+      "targets": [
+        ["css=.ion-activated > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b09bd0f7-7d2a-4c61-aa90-24a705964ed8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-button-inner",
+      "targets": [
+        ["css=.alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-2']/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7f073cd4-5d8a-4366-ae8c-08247f17ec8b",
+    "name": "ResetarSenhaEmailBranco",
+    "commands": [{
+      "id": "6335a162-49a0-4643-8331-efb827839563",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7323626-72aa-4acd-b23e-eba83eb597f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6012972c-7525-4b7f-9a98-512dce912328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .first-line",
+      "targets": [
+        ["css=.text-right > .first-line", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col[2]/span", "xpath:idRelative"],
+        ["xpath=//ion-col[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Esqueceu sua senha?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9bef133-2727-4e90-9d59-b1f24a05a9fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .alert-button-inner",
+      "targets": [
+        ["css=.ion-activated > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "607bb957-9887-4102-989b-1c3e0525d6b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-button-inner",
+      "targets": [
+        ["css=.alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-2']/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6ea42025-3403-4e23-b20c-94f388661f2b",
+    "name": "ResetarSenhaEmailNaoCadastrado",
+    "commands": [{
+      "id": "e794fc70-72b2-4181-a3f2-c8457f4bdaa2",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70950c17-def1-4e2e-8c9f-5b3b3fd528d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3563c06-3a8d-46e9-8a0e-b507781e64f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .first-line",
+      "targets": [
+        ["css=.text-right > .first-line", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col[2]/span", "xpath:idRelative"],
+        ["xpath=//ion-col[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Esqueceu sua senha?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c15224-7f89-46de-8abe-357316420ac0",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-input-1-0",
+      "targets": [
+        ["id=alert-input-1-0", "id"],
+        ["css=#alert-input-1-0", "css:finder"],
+        ["xpath=//input[@id='alert-input-1-0']", "xpath:attributes"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb5f755-7294-443a-b3b9-f3478131fe95",
+      "comment": "",
+      "command": "type",
+      "target": "id=alert-input-1-0",
+      "targets": [
+        ["id=alert-input-1-0", "id"],
+        ["css=#alert-input-1-0", "css:finder"],
+        ["xpath=//input[@id='alert-input-1-0']", "xpath:attributes"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "thiagofull.lsk@gmail.com"
+    }, {
+      "id": "17968f57-d3f2-4e6b-9eae-78651d94e00a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .alert-button-inner",
+      "targets": [
+        ["css=.ion-activated > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[4]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ff197ce-f899-4cef-b2cc-d73b5241df08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-button-inner",
+      "targets": [
+        ["css=.alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-2']/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5dcd3c9a-36d9-405c-b421-46adb318aaa7",
+    "name": "LoginEmailNaoCadastrado",
+    "commands": [{
+      "id": "114522eb-9621-486f-8715-2c7ae4052733",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50812862-a77a-4022-99ed-0110524f0b6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07438b68-7ecb-42c2-b7e3-64f47a6128a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41a27c7a-bc15-49da-a84c-7558e06b792d",
+      "comment": "",
+      "command": "type",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "thiagofull.lsk@gmail.com"
+    }, {
+      "id": "e904c0e7-637d-4410-89d4-9d686d2441ad",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-pristine > .native-input",
+      "targets": [
+        ["css=.ng-pristine > .native-input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formUserPass']/div[3]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "@191199"
+    }, {
+      "id": "ca64e64a-97f7-42bb-a3f7-466eb24feb65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttons-container > .ng-tns-c115-0:nth-child(1)",
+      "targets": [
+        ["css=.buttons-container > .ng-tns-c115-0:nth-child(1)", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "75f62305-b983-4a9b-ba8c-d52564c30c07",
+    "name": "LoginEmailInvalido",
+    "commands": [{
+      "id": "b84b7d70-ee25-46c8-8365-a0fbd92942e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e509468-dbb9-4550-bbb0-147ca3742b97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31a4e7c6-2aae-4521-80ca-8e0fb4f28d50",
+      "comment": "",
+      "command": "click",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d900adb-15b8-4834-8823-83fcadbf349a",
+      "comment": "",
+      "command": "type",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "thiago"
+    }]
+  }, {
+    "id": "56d57e2d-6f1d-4227-8ddc-3b0e91530ac6",
+    "name": "LoginEmailCadastrado",
+    "commands": [{
+      "id": "3be173ac-88fd-4bd0-8b52-f56276b721c7",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b59a4579-a3e5-4072-8852-58fe513043aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc156880-a32a-4870-adf7-49ad08af57df",
+      "comment": "",
+      "command": "click",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f91519-7306-447e-ae1d-c825da9519e0",
+      "comment": "",
+      "command": "type",
+      "target": "css=#username > .native-input",
+      "targets": [
+        ["css=#username > .native-input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='username']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "thiagotfs.bsb@gmail.com"
+    }, {
+      "id": "9c4ed694-27bc-44c0-a301-6261c9203550",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-pristine > .native-input",
+      "targets": [
+        ["css=.ng-pristine > .native-input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formUserPass']/div[3]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "@Thi191199"
+    }, {
+      "id": "7070f0a4-bf48-441c-b162-e80d9f8926c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttons-container > .ng-tns-c115-0:nth-child(1)",
+      "targets": [
+        ["css=.buttons-container > .ng-tns-c115-0:nth-child(1)", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d6bd3788-5527-4be8-b53b-379cbaafa56d",
+    "name": "LoginFacebook",
+    "commands": [{
+      "id": "26ba7553-9720-45af-80be-a74da9d4d050",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07b1c4bd-3897-47aa-8af0-1c8933471b2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efb96825-65e3-44d6-89e4-dfca2646617c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facebook-button",
+      "targets": [
+        ["css=.facebook-button", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67f56662-a361-4927-a12d-c1ea3a8b8d25",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='email_container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eccac15-a9bf-491b-b46a-4a44b97b4b7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='email_container']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "thiagotfs.bsb@gmail.com"
+    }, {
+      "id": "5e4e5808-f9f9-4ccc-870c-cebd09453755",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Thi@191199"
+    }, {
+      "id": "e9e9aebe-bf69-4a1e-939a-94b3bf278078",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3492445a-6371-42e8-9f52-4deaca52905c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xtk6v10 > .x1lliihq",
+      "targets": [
+        ["css=.xtk6v10 > .x1lliihq", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_ai']/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "70f7d0fd-50db-43b0-9438-7ebede6cfa95",
+    "name": "LoginApple",
+    "commands": [{
+      "id": "1f7a6606-39d1-465c-9d34-ae894f41f8a1",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28f6a93a-7d1b-4106-b911-c38e976d8880",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1dfed0e-27b8-4450-adb2-b93b8ab01015",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fac09148-250d-483b-8980-ca238088585d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7931}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93cb42d6-12a0-4f37-b277-d7e03a53bcaa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "349f31f2-1c3f-413a-89b6-0646a06e349b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5f79b4ff-cac9-4a39-9391-994ac1a537aa",
+    "name": "LoginFacebookInvalido",
+    "commands": [{
+      "id": "181f98bf-3b1b-44f9-a585-7ce341db2600",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7223c9c6-9640-4aa9-87ca-f6722db03607",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f328a76-6c25-4c05-a136-7f5c7d7d39db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.facebook-button > .ng-tns-c115-0:nth-child(2)",
+      "targets": [
+        ["css=.facebook-button > .ng-tns-c115-0:nth-child(2)", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "390fe670-a050-4bd1-a37d-f74bfaab2f40",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04910e7-a533-4ad2-b8a4-dfddd171ad41",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "askjfhkj"
+    }, {
+      "id": "344f4d67-e5f3-422d-bac0-e966a02845a6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": "121.5,13"
+    }, {
+      "id": "3aae3e39-ef0a-4d20-b8ce-f9ad7ac04393",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": "121.5,13"
+    }, {
+      "id": "ad074523-8c68-401f-b475-d2dbd5487bc8",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": "121.5,13"
+    }, {
+      "id": "599965b1-598d-4c48-a443-9c54114361ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "targets": [
+        ["id=loginbutton", "id"],
+        ["name=login", "name"],
+        ["css=#loginbutton", "css:finder"],
+        ["xpath=//button[@id='loginbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginform']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f671b06-862f-42aa-bffb-c42cf7b10b1e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.\\_2iem",
+      "targets": [
+        ["css=.\\_2iem", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Agora não')]", "xpath:innerText"]
+      ],
+      "value": "7.8125,4.921875"
+    }, {
+      "id": "1fa8d4c7-2214-4adc-b244-271f4cf03380",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.\\_2iem",
+      "targets": [
+        ["css=.\\_2iem", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Agora não')]", "xpath:innerText"]
+      ],
+      "value": "7.8125,4.921875"
+    }, {
+      "id": "dd2c8ddc-18da-4d41-96b5-c918b2213453",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.\\_2iem",
+      "targets": [
+        ["css=.\\_2iem", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Agora não')]", "xpath:innerText"]
+      ],
+      "value": "7.8125,4.921875"
+    }, {
+      "id": "8b67e55f-755d-472f-af06-88cbcbdd9a58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2iem",
+      "targets": [
+        ["css=.\\_2iem", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Agora não')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9cdafe18-6ff4-48eb-a1ba-7f9efd28f9ca",
+    "name": "CadastroEmailCadastrado",
+    "commands": [{
+      "id": "cbf3e85d-3d1b-4362-8b4c-df589d91b390",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92de7d17-3e06-4892-bd0f-9f520fa3bcd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37b65356-36b9-4def-a131-6da241033b32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c115-0:nth-child(1) > .link",
+      "targets": [
+        ["css=.ng-tns-c115-0:nth-child(1) > .link", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Cadastre-se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9705ab1-6205-498d-99d7-e8c56286599d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#name > .native-input",
+      "targets": [
+        ["css=#name > .native-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2add3cc6-2a5e-428f-97d7-4c6882062000",
+      "comment": "",
+      "command": "type",
+      "target": "css=#name > .native-input",
+      "targets": [
+        ["css=#name > .native-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div/ion-input/input", "xpath:position"]
+      ],
+      "value": "Thiago Teixeira Faria e Silva"
+    }, {
+      "id": "41991dab-b3cd-4414-b8c9-432d6761efae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(3) > #username > .native-input",
+      "targets": [
+        ["css=.field:nth-child(3) > #username > .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94af5cd5-792e-4f1a-95d3-0618a92ac53d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.valid > #username > .native-input",
+      "targets": [
+        ["css=.valid > #username > .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56a6a86f-fb96-4501-be03-aa98d44ef5b5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.invalid .native-input",
+      "targets": [
+        ["css=.invalid .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "thiagotfs.bsb@gmail.com"
+    }, {
+      "id": "763accb7-7302-44bc-9d20-3c99280eba09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register-popup-container",
+      "targets": [
+        ["css=.register-popup-container", "css:finder"],
+        ["xpath=//register-popup/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0b7d3a95-1a30-4391-8d12-347ee1c0c700",
+    "name": "CadastroNovoCadastroValido",
+    "commands": [{
+      "id": "f0d9a104-d1fa-4596-b2f2-881ace3787f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53c5e12b-5565-4594-bfd5-0def8a0468a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adfbdfa1-5f47-4168-b9c6-47e24742b8cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c115-0:nth-child(1) > .first-line",
+      "targets": [
+        ["css=.ng-tns-c115-0:nth-child(1) > .first-line", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col/span", "xpath:idRelative"],
+        ["xpath=//ion-col/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Não tem uma conta?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2edc2a7-498e-4497-aa52-87302b7d81ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=#name > .native-input",
+      "targets": [
+        ["css=#name > .native-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b09d818-f47f-4018-8932-820d2ec92bcc",
+      "comment": "",
+      "command": "type",
+      "target": "css=#name > .native-input",
+      "targets": [
+        ["css=#name > .native-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div/ion-input/input", "xpath:position"]
+      ],
+      "value": "Thiago Teixeira Faria e Silva"
+    }, {
+      "id": "5dfddec1-f47e-4a78-9004-a36a64badbb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(3) > #username > .native-input",
+      "targets": [
+        ["css=.field:nth-child(3) > #username > .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84633b59-abd4-4c3c-b9e1-fb993680df92",
+      "comment": "",
+      "command": "type",
+      "target": "css=.field:nth-child(3) > #username > .native-input",
+      "targets": [
+        ["css=.field:nth-child(3) > #username > .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "thiago.full@outlook.com"
+    }, {
+      "id": "673bf841-5f83-41b7-9269-44f8faa91669",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@name='password'])[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af234911-f310-41a4-81bd-c242d5e5abf4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=(//input[@name='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='formRegisterUser']/div[5]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//div[5]/ion-input/input", "xpath:position"]
+      ],
+      "value": "Thi@191199"
+    }, {
+      "id": "83c6bc8c-c645-4f8c-8a35-fe9080ba46c2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='confirmPassword']",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='confirmPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='formRegisterUser']/div[7]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//div[7]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73c1d36-cf71-4877-8906-769ecdcf6c94",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-focus > .native-input",
+      "targets": [
+        ["css=.has-focus > .native-input", "css:finder"],
+        ["xpath=//input[@name='confirmPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='formRegisterUser']/div[7]/ion-input/input", "xpath:idRelative"],
+        ["xpath=//div[7]/ion-input/input", "xpath:position"]
+      ],
+      "value": "Thi@191199"
+    }, {
+      "id": "01564cb4-9065-4dd4-ae8f-e2725a7a6fa8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ios",
+      "targets": [
+        ["css=.ios", "css:finder"],
+        ["xpath=//form[@id='formRegisterUser']/div[9]/ion-select", "xpath:idRelative"],
+        ["xpath=//ion-select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "544f404b-e0fb-4078-babc-086f5c24ecbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-sheet-button:nth-child(8)",
+      "targets": [
+        ["css=.action-sheet-button:nth-child(8)", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//ion-action-sheet[@id='ion-overlay-1']/div[2]/div/div/button[8]", "xpath:idRelative"],
+        ["xpath=//button[8]", "xpath:position"],
+        ["xpath=//button[contains(.,'Distrito Federal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ca1cc5-f607-4f3c-9d59-df2acfbe081d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-invalid:nth-child(3)",
+      "targets": [
+        ["css=.ng-invalid:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='formRegisterUser']/div[11]/ion-item[2]/ion-checkbox", "xpath:idRelative"],
+        ["xpath=//ion-item[2]/ion-checkbox", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f33903-317e-4c6e-86fb-4607308f7c64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-primary",
+      "targets": [
+        ["css=.is-primary", "css:finder"],
+        ["xpath=//button[@type='undefined']", "xpath:attributes"],
+        ["xpath=//ion-router-outlet[@id='content']/terms-and-conditions/base-button/button", "xpath:idRelative"],
+        ["xpath=//base-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ACEITAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b1a002b4-b658-4c3d-a80e-4bb8bb40a5ef",
+    "name": "CadastroEmailInvalido",
+    "commands": [{
+      "id": "cb7d2632-2b08-477b-b9f2-0328bc2aab8a",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.cocobambu.com/entrar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3043149-b865-47b4-9f42-061ff8d1e4b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "808x750",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e82080cb-fb78-407f-99dc-b5fb4404d2a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c115-0:nth-child(1) > .first-line",
+      "targets": [
+        ["css=.ng-tns-c115-0:nth-child(1) > .first-line", "css:finder"],
+        ["xpath=//ion-router-outlet[@id='content']/app-login/div/div/div[3]/ion-col/span", "xpath:idRelative"],
+        ["xpath=//ion-col/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Não tem uma conta?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bfea6cb-46e6-4c7a-8cea-975746e275ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=#name > .native-input",
+      "targets": [
+        ["css=#name > .native-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d17f9c58-56d8-4ef7-b9c9-a35337b65bc2",
+      "comment": "",
+      "command": "type",
+      "target": "css=#name > .native-input",
+      "targets": [
+        ["css=#name > .native-input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//ion-input[@id='name']/input", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div/ion-input/input", "xpath:position"]
+      ],
+      "value": "Thiago Teixeira Faria e Silva"
+    }, {
+      "id": "1135122e-0895-4293-9daf-2e32375f9fc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(3) > #username > .native-input",
+      "targets": [
+        ["css=.field:nth-child(3) > #username > .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2396fa8-4fa7-4716-ba8a-86a032bfceea",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@name='username'])[2]",
+      "targets": [
+        ["css=.invalid .native-input", "css:finder"],
+        ["xpath=(//input[@name='username'])[2]", "xpath:attributes"],
+        ["xpath=(//ion-input[@id='username']/input)[2]", "xpath:idRelative"],
+        ["xpath=//register-popup/div/form/div[3]/ion-input/input", "xpath:position"]
+      ],
+      "value": "thiago.com"
+    }]
+  }],
+  "suites": [{
+    "id": "fedf2cc1-2ad4-451a-8852-ff47db0854e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1fbbe83c-9df9-4a49-ba0d-082d15ecda88"]
+  }],
+  "urls": ["https://app.cocobambu.com/", "https://app.cocobambu.com/entrar"],
+  "plugins": []
+}
